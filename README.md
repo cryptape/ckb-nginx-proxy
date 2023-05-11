@@ -19,7 +19,7 @@ apt install docker
 
 ## clone code
 ```
-git clone https://github.com/jiangxianliang007/ckb-nginx-proxy.git
+git clone https://github.com/cryptape/ckb-nginx-proxy.git
 ```
 
 ## Replace the default value with your ckb rpc address
@@ -85,5 +85,5 @@ http://192.168.1.100:80
 ```
 result
 ```
-This method has been banned
+This method Access forbidden
 ```
