@@ -22,11 +22,11 @@ apt install docker
 git clone https://github.com/cryptape/ckb-nginx-proxy.git
 ```
 
-## Replace the default value with your ckb rpc address
+## Replace the default value with your ckb rpc address, Suppose your rpc IP is 192.168.1.100
 ```
 cd ckb-nginx-proxy
 
-sed -i "s/YOUR_CKR_RPC_IP:8114/192.168.1.100:8114/" nginx.conf 
+sed -i "s/DEFAULT_CKR_RPC_IP:8114/192.168.1.100:8114/" nginx.conf 
 ```
 
 ## run proxy
